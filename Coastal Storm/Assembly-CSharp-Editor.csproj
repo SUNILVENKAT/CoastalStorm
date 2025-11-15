@@ -1473,6 +1473,10 @@
       <Project>{1F36EB2B-FC26-212A-47F6-B624D5338A12}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="RoadArchitect.csproj">
+      <Project>{1A9C95D5-50AF-5E77-248A-9016A901768F}</Project>
+      <Name>RoadArchitect</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
